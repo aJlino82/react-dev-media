@@ -5,3 +5,26 @@
     flex-wrap: wrap;
     margin: 0 auto;
 }
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.area-botao {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    font-family: "montserrat";
+    text-decoration: none;
+    padding: 14px 60px;
+    text-transform: uppercase;
+}
