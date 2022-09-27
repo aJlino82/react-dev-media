@@ -1,3 +1,4 @@
+import React from 'react';
 import './style.css';
 //componet com arrow function e export default no rodaé da função;
 const Footer = () => {

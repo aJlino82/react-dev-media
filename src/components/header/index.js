@@ -1,3 +1,4 @@
+import React from 'react';
 import './style.css';
 
 //component com export default na função

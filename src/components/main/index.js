@@ -1,13 +1,21 @@
+import React from 'react';
 import './style.css';
-import Card from '../card';
 
-function Main() {
+
+const Main = () => {
     return (
         <div className="main">
-            
-            
-            <Card />
-            
+
+            <h1>Escolha seu caminho</h1>
+            <br />
+
+            <a className='conteudo'>
+                <a className='front' href='/frontend'>Front-end</a>
+                <a className='back' href='/backend'>Back-end</a>
+            </a>
+
+
+
 
         </div>
     );
