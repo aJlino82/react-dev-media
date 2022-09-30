@@ -1,9 +1,17 @@
 import React from "react";
+import BotaoVoltar from "../BotaoVoltar";
 
-const Back = () => {
+const Front = () => {
     return (
-        <h1> React JS - Front end  </h1>
+        <>
+            <h1> React JS - Front end  </h1>
+
+            <BotaoVoltar />
+        </>
+
+
+        
     );
 }
 
-export default Back;
+export default Front;

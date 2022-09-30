@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Main from "../main";
-import Front from "../backend";
+import Front from "../frontend";
 import Back from "../backend";
 
 const Rotas = () => (
@@ -10,8 +10,8 @@ const Rotas = () => (
     <BrowserRouter>
         <Routes>
             <Route exact path="/" element={<Main />} />
-            <Route exact path="/front" element={<Front />} />
-            <Route exact path="/back" element={<Back />} />
+            <Route  path="/frontend" element={<Front />} />
+            <Route  path="/backend" element={<Back />} />
         </Routes>
     </BrowserRouter>
 
